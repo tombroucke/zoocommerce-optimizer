@@ -1,0 +1,14 @@
+{
+    "name": "tombroucke/zoocommerce-optimizer",
+    "description": "Optimize WooCommerce install for performance",
+    "type": "wordpress-plugin",
+    "require": {
+      "composer/installers": "^1.0 || ^2.0"
+    },
+    "authors": [
+        {
+            "name": "Tom Broucke",
+            "email": "tom@tombroucke.be"
+        }
+    ]
+}
