@@ -1,4 +1,4 @@
-# ZooCommerce Optimize
+# ZooCommerce Optimizer
 
 This plugin disables WooCommerce packages. Usefull if you are developing a custom theme and don't want to load all the packages. Some features are not needed in the admin area.
 
@@ -7,13 +7,13 @@ This plugin disables WooCommerce packages. Usefull if you are developing a custo
 ### Composer
 
 ```bash
-composer require tombroucke/zoocommerce-optimize
+composer require tombroucke/zoocommerce-optimizer
 ```
 
 ## Enable analytics
 
 ```php
-add_filter('zoocommerce_optimize_remove_admin_features', function ($removeFeatures) {
+add_filter('zoocommerce_optimizer_remove_admin_features', function ($removeFeatures) {
     return array_filter($removeFeatures, function ($feature) {
         return $feature !== 'analytics';
     });
