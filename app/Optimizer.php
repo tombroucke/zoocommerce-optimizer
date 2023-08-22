@@ -79,6 +79,7 @@ class Optimizer
                 'coupons',
                 'core-profiler',
                 'customer-effort-score-tracks',
+                'experimental-fashion-sample-products',
                 'import-products-task',
                 'shipping-smart-defaults',
                 'shipping-setting-tour',
@@ -95,6 +96,9 @@ class Optimizer
                 'subscriptions',
                 'store-alerts',
                 //'transient-notices',
+                'woo-mobile-welcome',
+                'wc-pay-promotion',
+                'wc-pay-welcome-page'
             ]);
             
             foreach ($removeFeatures as $removeFeature) {

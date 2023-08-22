@@ -2,13 +2,13 @@
 namespace Otomaties\ZooCommerceOptimizer;
 
 /**
-* Plugin Name: ZooCommerce Optimizer
-* Description: Disable WooCommerce packages, admin features, admin notices, marketplace suggestions, extensions submenu, and more.
-* Author: Tom Broucke
-* Author URI: https://tombroucke.be
-* Version:           1.0.1
-* License: GPL2
-*/
+ * Plugin Name:       ZooCommerce Optimizer
+ * Description:       Disable WooCommerce packages, admin features, admin notices, marketplace suggestions, extensions submenu, and more.
+ * Author:            Tom Broucke
+ * Author URI:        https://tombroucke.be
+ * Version:           1.0.1
+ * License:           GPL2
+ */
 
 if (!defined('ABSPATH')) {
     exit;
