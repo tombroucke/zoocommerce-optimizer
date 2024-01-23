@@ -18,9 +18,10 @@ require_once __DIR__ . '/app/Optimizer.php';
 
 $analyticsRestRequestNeedle = '/wc-analytics';
 $wcAdminNeedle = 'wc-admin';
+$shippingZones = 'page=wc-settings&tab=shipping';
 
 Optimizer::instance()
-    ->excludeRequestUriPatterns($analyticsRestRequestNeedle, $wcAdminNeedle)
+    ->excludeRequestUriPatterns($analyticsRestRequestNeedle, $wcAdminNeedle, $shippingZones)
     ->disablePackages()
     ->removeFeatures()
     ->suppressAdminNotices()
