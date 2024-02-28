@@ -1,6 +1,6 @@
 # ZooCommerce Optimizer
 
-This plugin disables WooCommerce packages. Usefull if you are developing a custom theme and don't want to load all the packages. Some features are not needed in the admin area.
+This plugin will remove bloat from your WooCommerce website. Currently, there is no way to disable WooCommerce blocks completely, without breaking other functionality.
 
 ## Installation
 
