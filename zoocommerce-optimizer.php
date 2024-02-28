@@ -6,7 +6,7 @@ namespace Otomaties\ZooCommerceOptimizer;
  * Description:       Disable WooCommerce admin features, admin notices, marketplace suggestions, extensions submenu, and more.
  * Author:            Tom Broucke
  * Author URI:        https://tombroucke.be
- * Version:           1.2.0
+ * Version:           2.0.0
  * License:           GPL2
  */
 
